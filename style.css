@@ -47,4 +47,28 @@
     ul li a:hover{
        color: #a7a6a6;
        } 
-    
+
+       /* hero section style */
+     .hero-section{ 
+      display:flex; 
+      justify-content:center;
+       align-items:center;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("assets/banner.jpg"); 
+               
+        height: 600px;
+         background-size: cover;
+          background-position: center;
+          }
+      .hero-content {
+          display: flex;
+           flex-direction: column;
+            text-align: center;
+            align-items: center;
+             color: white;
+             gap: 20px; 
+            }
+            .hero-content .common-btn{
+               padding: 16px 32px;
+                font-size: 16px;
+                margin-top: 300px;
+            }
