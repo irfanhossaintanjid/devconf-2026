@@ -1,3 +1,50 @@
-body{
-    background-color: aqua;
-}
+*{ margin: 0;
+    padding: 0;
+     box-sizing:border-box;
+    }
+
+ img{ 
+   max-width: 100%;
+ } 
+ .common-btn{
+    background-color:rgb(5, 5, 249);
+     padding: 12px 24px;
+      border-radius: 8px;
+       font-weight: bold;
+        font-size: 12px;
+         color: white;
+          border: none;
+           cursor: pointer;
+          }
+  .common-btn:hover{
+    background-color: rgb(77, 77, 250);
+    }
+   .container{
+       max-width:1200px;
+        margin: auto;
+        padding: 0 20px;
+       } 
+  /* navbar style*/ 
+  .logo img{
+    width: 120px;
+    }
+  nav{
+    display: flex;
+     justify-content: space-between;
+      align-items: center; 
+      padding: 12px 0; 
+   } 
+  .nav-menu{
+    display: flex;
+     list-style: none;
+      gap: 25px;
+    }
+   ul li a{
+       text-decoration: none;
+        color: #5e5e5e;
+        transition: color .3s;
+       }
+    ul li a:hover{
+       color: #a7a6a6;
+       } 
+    
