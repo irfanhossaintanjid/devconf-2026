@@ -70,5 +70,50 @@
             .hero-content .common-btn{
                padding: 16px 32px;
                 font-size: 16px;
-                margin-top: 300px;
+                margin-top: 30px;
             }
+
+            /* speaker section */
+.speakers-Parent{
+  font-weight: bold;
+    margin-top: 50px;
+   
+    
+}
+.speakers-Parent h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.speaker-content{
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.speaker-card img{
+    width: 100%;
+    display: block;
+}
+.speaker-card{
+    border: 1px solid #dbdcdf;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-content{
+  text-align:left;
+  padding: 15px;
+  margin: 5px;
+}
+
+
+.card-content span{
+  color: blue;
+  font-size: 12px;
+}
+
+.card-content p{
+  font-size: 13px;
+  color: rgb(128, 126, 126);
+}
