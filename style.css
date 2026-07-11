@@ -17,13 +17,28 @@
            cursor: pointer;
           }
   .common-btn:hover{
-    background-color: rgb(77, 77, 250);
+    background-color: rgb(87, 87, 253);
+    }
+    .Outline-btn{
+      color: blue;
+       font-weight: bold;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 12px;
+      border: 1px solid blue;
+       cursor: pointer;
+      width: 100%;
+    margin-top: 20px;
+    }
+    .Outline-btn:hover{
+      background-color: rgb(213, 213, 243);
     }
    .container{
        max-width:1200px;
-        margin: auto;
+        margin: 0 auto;
         padding: 0 20px;
        } 
+       
   /* navbar style*/ 
   .logo img{
     width: 120px;
@@ -38,11 +53,11 @@
     display: flex;
      list-style: none;
       gap: 25px;
+      
     }
    ul li a{
        text-decoration: none;
-        color: #5e5e5e;
-        transition: color .3s;
+        color: #5e5e5e; 
        }
     ul li a:hover{
        color: #a7a6a6;
@@ -66,17 +81,25 @@
             align-items: center;
              color: white;
              gap: 20px; 
-            }
+            }.hero-content h1{
+    font-size: 60px;
+    font-weight: 60px;
+}
+
+.hero-content p{
+    max-width: 600px;
+    font-size: 18px;
+}
             .hero-content .common-btn{
                padding: 16px 32px;
                 font-size: 16px;
-                margin-top: 30px;
+                margin-top: 300px;
             }
 
             /* speaker section */
 .speakers-Parent{
   font-weight: bold;
-    margin-top: 50px;
+    padding: 80px 0;
    
     
 }
@@ -97,7 +120,7 @@
     display: block;
 }
 .speaker-card{
-    border: 1px solid #dbdcdf;
+    border: 1px solid #dbdada;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -115,5 +138,68 @@
 
 .card-content p{
   font-size: 13px;
-  color: rgb(128, 126, 126);
+  color: #979696;
+}
+
+/* secure section style */
+.secure{
+  text-align: center;
+  padding: 80px 0;
+}
+.secure h2{
+   font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.secure > .container > p{
+    color: #979696;
+    margin-bottom: 50px;
+}
+.secure-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.pricing-card{
+    border: 1px solid #cfd0d2;
+    border-radius: 12px;
+    padding: 40px;
+    text-align: left;
+}
+ .pricing-card h3{
+    font-size: 40px;
+    margin: 12px 0;
+}
+.pricing-card p{
+  color: #979696;
+}
+
+.pricing-card hr{
+    margin: 30px 0;
+}
+
+.pricing-card ul{
+    margin: 20px 0;
+    padding-left: 15px;
+   
+}
+
+.pricing-card li{
+    margin-bottom: 12px;
+     color: #504f4f;
+}
+
+.pricing-card li::marker{
+  color: blue;
+}
+.pricing-card .common-btn{
+    width: 100%;
+    margin-top: 20px;
+}
+.pro{
+  background-color: rgb(5, 5, 58);
+  color: rgb(222, 225, 237);
+}
+.pro li{
+  color: rgb(189, 189, 194);
 }
